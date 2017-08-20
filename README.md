@@ -1,0 +1,1 @@
+This is a prototype for the website that I'm going to create, overtime it will change from technical to design aspects of the project. The name of the website "Codel" will change when I choose a more appropriate name for the website. 
