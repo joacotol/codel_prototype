@@ -1,0 +1,156 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Josefin+Sans|Poppins');
+/*
+* {
+    border: 1px solid #000;
+}
+*/
+/* Global */
+body {
+    font-family: 'Droid Serif', arial, serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background: #92C0DB;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #2F617F;
+    /*color: #FFEAA5;*/
+    color: #FFAFA5;
+    padding: 0;
+    min-height: 75px;
+}
+
+header #logo {
+    float: left;
+}
+
+header #logo .linkLogo a {
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    color: #FFAFA5;
+
+}
+
+header #logo .linkLogo a:hover {
+    font-weight: bold;
+    color: #FF6D59;
+}
+
+header nav a {
+    font-size: 25px;
+    font-family: 'Poppins', arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFAFA5;
+}
+
+header a:hover {
+    font-weight: bold;
+    color: #FF6D59;
+}
+
+header .selected {
+    font-weight: bold;
+    color: #FF6D59;
+}
+
+
+header nav ul {
+    float: right;
+    padding: 15px 0;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 0 20px;
+}
+
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    background: url(../img/pexels-photo-386009.jpeg) no-repeat 0 -550px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #F9D96D;
+}
+
+#showcase h1 {
+    margin-top: 140px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 56px;
+    line-height: 0.1em;
+    color: #F9D96D;
+}
+
+#showcase p {
+    font-size: 20px;
+    width: 50%;
+}
+
+/* Main Content */
+article {
+    width: 60%;
+    float: left;
+    background: #633731;
+    color: #fff;
+    line-height: 1.5em;
+    border-radius: 0px 10px 10px 0;
+}
+
+article h2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 35px;
+    padding: 10px 0 0 20px;
+    color: #F9D96D;
+}
+
+article p {
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+
+aside {
+    width: 35%;
+    float: right;
+    background: #21343F;
+    color: #fff;
+    margin-top: 50px;
+    line-height: 1.5em;
+    border-radius: 10px 0 0 10px;
+}
+
+aside h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #F9D96D;
+}
+
+aside p {
+
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+.clr {
+    clear: both;
+}
