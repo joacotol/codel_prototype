@@ -17,22 +17,21 @@ h3 {
     font-family: "Poppins", Arial, sans-serif;
 }
 
-h2 {
-    padding: 0;
-    margin: 0;
-}
-
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-ul {
+h2 {
     padding: 0;
     margin: 0;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
 /* Header */
 header {
     background: #2F617F;
@@ -61,6 +60,8 @@ header h1.linkLogo {
 header h1.linkLogo a {
     font-family: 'Josefin Sans', Helvetica, sans-serif;
     font-size: 45px;
+    font-weight: 300;
+    letter-spacing: -2px;
     text-decoration: none;
     color: #FFAFA5;
     position: absolute;
@@ -68,7 +69,8 @@ header h1.linkLogo a {
 
 header h1.linkLogo a:hover {
     font-weight: bold;
-    color: #FF6D59;
+    color: #ff7461;
+    letter-spacing: 1px;
 }
 
 header nav a {
