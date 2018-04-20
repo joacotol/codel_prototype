@@ -5,12 +5,18 @@
     border: 1px solid #000;
 }*/
 /* Global */
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Droid Serif', arial, serif;
     font-size: 15px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 100px;
     background: #92C0DB;
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
@@ -36,7 +42,6 @@ ul {
 header {
     background: #2F617F;
     color: #FFAFA5;
-    margin: auto;
     padding: 0;
     min-height: 60px;
     border-bottom: 5px solid #C85142;
@@ -318,15 +323,32 @@ aside p {
 
 .clr {
     clear: both;
+    flex: 1 0 auto;
 }
 
 /* Social Footer */
+footer {
+    height: 50px;
+    flex-shrink: 0;
+}
+
 footer .social {
     background: #54A7D8;
     background: linear-gradient(to top, #54A7D8, #92C0DB);
     margin-top: 20px;
     width: 100%;
     border-bottom: 3px solid #C85142;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 0;
+    background: #2F617F;
+    width: 100%;
+    position: absolute;
+    margin-top: 0;
 }
 
 .social {
@@ -355,16 +377,3 @@ footer .social {
 }
 
 /* Second Footer */
-.second {
-    background: #2F617F;
-    width: 100%;
-    margin: 0;
-    position: absolute;
-}
-
-.second p {
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-    padding: 10px 0;
-}
